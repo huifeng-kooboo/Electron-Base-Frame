@@ -1,10 +1,11 @@
+/** global style ***/
 body {
   display: flex;
   flex-direction: column;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Open Sans', sans-serif;
-  color: #86a5b1;
-  background-color: #2f3241;
+  color: #FFFFFF;
+  background-color: #191c28;
 }
 
 * {
@@ -41,10 +42,21 @@ a:hover {
   flex: 1;
   display: flex;
   flex-direction: column;
-  max-width: 840px;
+  width: 100%;
   margin: 0 auto;
-  padding: 15px 30px 0 30px;
+  // padding: 15px 30px 0 30px;
 }
+
+.titleBar {
+  height: 48px;
+  background-color: #0c0d13;
+  width: 100%;
+}
+
+.titleContent {
+  height: 48px;
+}
+
 
 .versions {
   margin: 0 auto;
@@ -186,4 +198,12 @@ a:hover {
   .features .feature-item {
     width: 100%;
   }
+}
+
+.titleInfo {
+  font-size: 12px;
+  text-align:center;
+  margin-left: 45px;
+  margin-top: 14px;
+  color: white;
 }
